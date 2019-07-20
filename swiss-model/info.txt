@@ -1,0 +1,67 @@
+.pdb models built with swiss-model 
+https://swissmodel.expasy.org/
+
+~~~~~~~~~~~~
+models whose file number starts with 0 are full length 
+models that start with 1 are truncated (according to which part was modelled in GREMLIN)
+~~~~~~~~~~~~
+
+PflA model 1
+based on pdb structure 4buj, chain B (molecule 2)
+S. cerevisiae Ski2-3-8 complex
+top hit of the GREMLIN HHsearch results -- the PDB structure that matched GREMLIN output the closest
+GMQE:	0.37 
+QMEAN:	-4.88
+
+PflA model 2
+based on 5mqf, moleucle 1
+Pre-mRNA-splicing factor SYF1
+top template as ranked by swiss-model
+GMQE:	0.38
+QMEAN:	-5.92
+
+PflA-truncated model 1
+based on pdb structure 4buj, chain B (molecule 2)
+S. cerevisiae Ski2-3-8 complex
+top GREMLIN HHsearch hit 
+GMQE:	0.49
+QMEAN:	-5.33
+
+PflA-truncated model 2
+based on 6bq1 B (molecule 1)
+Tetratricopeptide repeat protein 7B
+GMQE:	0.50
+QMEAN:	-4.38
+
+~~~~~~~~~~~~
+
+PflB model 1 
+based on pdb structure 4buj, chain B (molecule 2)
+top hit of the GREMLIN HHsearch results
+GMQE:	0.43
+QMEAN:	-4.63
+
+PflB model 2
+ribosome-Ski2-Ski3-Ski8 complex from S. cerevisiae
+top template as ranked by swiss-model
+GMQE:	0.43
+QMEAN:	-6.20
+
+PflB-truncated model 1
+based on pdb structure 4buj, chain B (molecule 2)
+top hit of the GREMLIN HHsearch results
+GMQE:	0.50
+QMEAN:	-4.35
+
+PflB-truncated model 2
+based on pdb 5mc6 chain A (molecule 35)
+ribosome-Ski2-Ski3-Ski8 complex from S. cerevisiae
+top template as ranked by swiss-model
+GMQE:	0.50
+QMEAN:	-5.60
+
+~~~~~~~~~~~~
+
+GMQE (Global Model Quality Estimation) is a quality estimation which combines properties from the target–template alignment and the template search method. The resulting GMQE score is expressed as a number between 0 and 1, reflecting the expected accuracy of a model built with that alignment and template and the coverage of the target. Higher numbers indicate higher reliability.
+
+QMEAN is a quality estimate. It provides an estimate of the "degree of nativeness" of the structural features observed in the model on a global scale. It indicates whether the QMEAN score of the model is comparable to what one would expect from experimental structures of similar size. QMEAN Z-scores around zero indicate good agreement between the model structure and experimental structures of similar size. Scores of -4.0 or below are an indication of models with low quality. 
